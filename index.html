@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat Application</title>
+        <link rel='stylesheet' href='css/style.css'>
+        <script defer src='http://localhost:8000/socket.io/socket.io.js'></script>
+        <script defer src='js/client.js'></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Chat Application</h1>
+            <div class="block">
+                <!-- Chat messages here -->              
+            </div>
+            <div class="send">
+                <form action='#' id='send-container'>
+                    <input type='text' id='userMessage'>
+                    <button type='submit' class='btn'>Send</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

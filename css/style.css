@@ -1,0 +1,46 @@
+body{
+    width: 990px;
+    margin:auto;
+    text-align: center;
+}
+
+.block{
+    text-align: center;
+    margin:auto;
+    width: 100vh;
+    height: 60vh;
+    overflow-y: auto;
+    background-color: grey;
+    padding: 10px;    
+}
+
+.message{
+    padding: 10px;
+    width:40%;
+    background-color: white;
+    border: 2px;
+    border-radius: 5px;
+    margin-top: 10px;    
+    
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.send{
+    margin-top: 10px;
+}
+
+#userMessage{
+    width:80vh;
+}
+.btn{
+    width:20vh;
+}
