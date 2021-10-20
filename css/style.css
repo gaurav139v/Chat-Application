@@ -1,22 +1,36 @@
 body{
-    width: 990px;
-    margin:auto;
-    text-align: center;
+    width: 100%;
 }
 
-.block{
-    text-align: center;
-    margin:auto;
-    width: 100vh;
-    height: 60vh;
+.block{  
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 450px;
     overflow-y: auto;
     background-color: grey;
     padding: 10px;    
 }
 
+.name {
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: pink;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.messageContent {
+    font-size: 18px;
+    /* margin-top:-10px; */
+    padding:5px;  
+
+}
+
 .message{
-    padding: 10px;
-    width:40%;
+    /* padding: 10px; */
+    line-height: 0px;
+    width:40%;  
     background-color: white;
     border: 2px;
     border-radius: 5px;
@@ -39,8 +53,15 @@ body{
 }
 
 #userMessage{
-    width:80vh;
+    width:90%;
+    float: left;
 }
 .btn{
-    width:20vh;
+    width:9%;
+    float: right;
 }
+
+.nav-link {
+    float: right;
+}
+
