@@ -2,7 +2,7 @@ body{
     width: 100%;
 }
 
-.block{  
+#message_container{  
     margin-top: 10px;
     border-radius: 10px;
     height: 450px;
