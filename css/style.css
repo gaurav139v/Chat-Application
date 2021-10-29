@@ -12,21 +12,74 @@ body{
     padding: 10px;    
 }
 
-.name {
+/* #info {
+    margin-top: 10px;
+    padding:0px;
+} */
+
+/* .info_message {
+    /* width:50%;  
+    background-color: rgb(123, 154, 167);    
+    border: 2px;
+    border-radius: 5px;
+    margin-top: 10px;    */
+    /* position: relative;
+    width:40%;  
+    background-color: grey;
+    border: 2px;
+    border-radius: 5px;
+    margin-top: 200px;   */
+/* }  */
+
+/* .info_content {
+    font-size: 16px;
+    padding: 5px;    
+} */
+
+.name {    
+    background-color: pink;
+    border-radius: 5px;
+    padding: 2px 10px; 
+ 
+}
+
+.person_name {
     color: red;
     font-size: 15px;
     font-weight: bold;
-    background-color: pink;
-    border-radius: 5px;
-    padding: 2px 10px;    
 }
+
+.info {
+    margin-top: 10px;     
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;  
+}
+
+.message_time {
+    color: black;   
+    float:right;
+}
+
+.info_message {  
+    width:auto;  
+    padding: 5px 12px;
+    background-color: rgb(148, 190, 214);
+    border: 2px;
+    border-radius: 5px;
+    margin-top: 10px;        
+}
+
 
 .messageContent {
     font-size: 18px;
     padding:5px 10px;  
     padding-bottom: 0px;
-    margin-top:-18px;
+    margin-top:-2px;
 }
+
+
 
 .message{  
     width:40%;  
@@ -44,6 +97,12 @@ body{
 .right{
     float: right;
     clear: both;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+    clear: both;   
 }
 
 .send{
